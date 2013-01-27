@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Justin",
+		"score": "1000"
+	},
+	{
+		"name": "Dallin",
+		"score": "900"
+	},
+	{
+		"name": "Fred",
+		"score": "800"
+	},
+	{
+		"name": "Jessie",
+		"score": "700"
+	},
+	{
+		"name": "Greg",
+		"score": "600"
+	},
+	{
+		"name": "Kaylee",
+		"score": "500"
+	},
+	{
+		"name": "Tarah",
+		"score": "400"
+	},
+	{
+		"name": "Adam",
+		"score": "300"
+	},
+	{
+		"name": "Bo",
+		"score": "200"
+	},
+	{
+		"name": "Frank",
+		"score": "100"
+	}
+]

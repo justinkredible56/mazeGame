@@ -1,0 +1,15 @@
+<div class = 'banner'>High Score List</div>
+<hr />
+
+<div class = 'hsEntries'>
+<ol>
+{{#each this}}
+	<li>
+		<div class = 'entry'>
+			<span class = 'hsNames'>{{name}}</span>
+			<span class = 'hsScores'>Score: {{score}}</span>
+		</div>
+	</li>
+{{/each}}
+</ol>
+</div>
