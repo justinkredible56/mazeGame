@@ -1,0 +1,12 @@
+{{#if newHigh}}
+	<div class = 'hs-banner'>NEW HIGH SCORE!</div><hr />
+	<div class = 'hs-banner'>Your Time was {{time}} seconds</div>
+    <div class = 'score'>Score: {{score}} points</div><hr />
+	<span class = 'hs-name'>Name: </span><input type = 'text' class = 'name-box' size = '30'>
+	<button class = 'hs-btn'>Submit</button>
+    <button class = 'back'>Main Menu</button>
+{{else}}
+	<div class = 'hs-banner'>Congratulations! Your time was {{time}} seconds</div><hr />
+    <div class= 'score'>Score: {{score}} points</div>
+    <button class = 'back'>Main Menu</button>
+{{/if}}

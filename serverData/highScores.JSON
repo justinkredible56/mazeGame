@@ -1,42 +1,42 @@
 [
-	{
-		"name": "Justin",
-		"score": "1000"
-	},
-	{
-		"name": "Dallin",
-		"score": "900"
-	},
-	{
-		"name": "Fred",
-		"score": "800"
-	},
-	{
-		"name": "Jessie",
-		"score": "700"
-	},
-	{
-		"name": "Greg",
-		"score": "600"
-	},
-	{
-		"name": "Kaylee",
-		"score": "500"
-	},
-	{
-		"name": "Tarah",
-		"score": "400"
-	},
-	{
-		"name": "Adam",
-		"score": "300"
-	},
-	{
-		"name": "Bo",
-		"score": "200"
-	},
-	{
-		"name": "Frank",
-		"score": "100"
-	}
+  {
+    "name": "Justin",
+    "score": "13100"
+  },
+  {
+    "name": "Justin",
+    "score": "9800"
+  },
+  {
+    "name": "Dallin",
+    "score": "9000"
+  },
+  {
+    "name": "Fred",
+    "score": "8800"
+  },
+  {
+    "name": "Jessie",
+    "score": "7000"
+  },
+  {
+    "name": "Kaylee",
+    "score": "6600"
+  },
+  {
+    "name": "Tarah",
+    "score": "5600"
+  },
+  {
+    "name": "Adam",
+    "score": "4600"
+  },
+  {
+    "name": "Dr. Mathias",
+    "score": "5400"
+  },
+  {
+    "name": "Chase",
+    "score": "3600"
+  }
 ]

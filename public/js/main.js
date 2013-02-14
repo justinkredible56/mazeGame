@@ -26,12 +26,12 @@ require([
    'jquery',
    //'tmpl!game/templates/gameSize', // changed this (HOW TO LOAD JUST A TEMPLATE)
    'game/views/gameStart',                                      // added this (HOW TO LOAD A BACKBONE VIEW)
-   'justAFile'          // added this (HOW TO LOAD A RANDOM FILE)
+   //'justAFile'          // added this (HOW TO LOAD A RANDOM FILE)
 ], function(
     $,
     //justTemplate,                       // and this
-    GameStartView,                                              // and this
-    justFile            // and this
+    GameStartView                                              // and this
+    //justFile            // and this
 ) {
 
   //$('.test').html(justTemplate())    // and this
@@ -40,7 +40,7 @@ require([
 
   // note: whatever I return in the define is sent back to justFile; it doesn't have to be backbone.
   //       it could be an object, function, array, just a number, nothing. whatever
-  justFile.prep();      // added this
+  //justFile.prep();      // added this
   //justFile.work();      // added this
 });
 

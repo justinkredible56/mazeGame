@@ -1,1 +1,13 @@
-This is the {{this}} X {{this}} Maze Screen! 
+
+<div class = 'maze-wrapper'>
+    {{#each this}}
+        <div class = 'row'>
+            {{#each this}}
+                <div class="path {{#if rightWall}} hasRight{{/if}}{{#if bottomWall}} hasBottom{{/if}}" data-x = "{{x}}" data-y = "{{y}}" style="{{#if bottomWall}} border-bottom: 5px solid black; {{/if}} {{#if rightWall}} border-right: 5px solid black; {{/if}} {{#if beginning}}background-color: blue;{{/if}}"></div>
+            {{/each}}
+        </div>
+    {{/each}}
+
+</div>
+<br />
+<button class = 'toggleBC'>Toggle BreadCrumbs</button>

@@ -7,6 +7,11 @@ var fs = require('fs');
         getScores: function (request, response, next) {
             var scores = JSON.parse(fs.readFileSync('serverData/highScores.JSON'));
             response.send(scores);
+        },
+        saveScores: function(request, response, next){
+            var data = request.body.scores;
+            console.log(data);
+            fs.writeFile('serverData/highScores.JSON', JSON.stringify(data));
         }
     };
 };

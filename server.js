@@ -30,3 +30,4 @@ console.log("Server running on " + HOST + ":" + PORT);
 // REST Call Routing Registry
 app.get('/stopServer', indexServices.stopServer);
 app.get('/highScores', gameServices.getScores);
+app.post('/saveScores', gameServices.saveScores);
